@@ -23,7 +23,7 @@ run:
     - -exc
     - |
       export GOPATH=$(pwd)/gopath:${GOPATH} && \
-      cd gopath/src/github.com/anothermemory/id && \
+      cd gopath/src/github.com/anothermemory/memories && \
       go version && \
       zb build && \
       zb lint -f --exclude=/usr/local/go && \
